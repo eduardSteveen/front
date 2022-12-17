@@ -8,7 +8,7 @@ function Create() {
     async function onSubmit(evento){
         
         evento.preventDefault()
-        console.log("ingreso")
+
         const res = await fetch("http://localhost:8090/tienda",{
             method:"POST",
             mode: "cors",

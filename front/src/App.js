@@ -6,7 +6,6 @@ import  "./assets/global.css"
 //para hacer las rutas
 import Home from './views/Home/Home';
 import Create from './views/Create/Create';
-import Search from './views/Search/Search';
 import Update from './views/Update/Update';
 import Delete from './views/Delete/Delete';
 
@@ -18,7 +17,6 @@ function App() {
             <Routes>
                 <Route path='/' element={<Home></Home>}></Route>
                 <Route path='/Create' element={<Create></Create>}></Route>
-                <Route path='/Search' element={<Search></Search>}></Route>
                 <Route path='/Update' element={<Update></Update>}></Route>
                 <Route path='/Delete' element={<Delete></Delete>}></Route>
             </Routes>

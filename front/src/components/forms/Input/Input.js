@@ -3,11 +3,11 @@ import "./Input.css"
 
 function Input(props) {
 
-    const { children, type, onChange} = props
+    const { children, type, onChange, value} = props
 
     return ( 
         <div className='inputContainer'>
-            <input onChange={onChange} type={type} placeholder={children} className="input"></input>
+            <input onChange={onChange} type={type} placeholder={children} className="input" value={value}></input>
             <label className='label'>{children}</label>
         </div>
         

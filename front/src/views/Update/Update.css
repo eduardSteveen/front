@@ -1,0 +1,12 @@
+.izq{
+    margin-top: 3rem;
+}
+
+.der{
+    margin-left: 5rem;
+}
+
+.grid{
+    grid-template-columns: 1fr 1fr;
+}
+

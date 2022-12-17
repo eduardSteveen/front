@@ -8,7 +8,6 @@ function Nav() {
             <ul className='container flex'>
                 <li><Link to='/'>Inicio</Link></li>
                 <li><Link to='/Create'>Agregar</Link></li>
-                <li><Link to='/Search'>Buscar</Link></li>
                 <li><Link to='/Update'>Modificar</Link></li>
                 <li><Link to='/Delete'>Eliminar</Link></li>
             </ul>
